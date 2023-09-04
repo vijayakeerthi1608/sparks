@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website - vijayakeerthi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/967f2ddfa1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logovk.png" class="logo">
+                <ul>
+                    <li><i class="fa-solid fa-house" style="color: #ff0046;"></i><a href="#header"> Home</a></li>
+                    <li><i class="fa-regular fa-address-card" style="color: #ff0046;"></i><a href="#about"> About</a></li>
+                    <li><i class="fa-solid fa-graduation-cap" style="color: #ff0046;"></i><a href="#education"> Education</a></li>
+                    <li><i class="fa-solid fa-book" style="color: #ff0046;"></i><a href="#certificates"> Certificates</a></li>
+                    <li><i class="fa-solid fa-phone" style="color: #ff0046;"></i><a href="#contacts"> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>STUDENT</p>
+                <h1>Hi, I'm <span>Vijayakeerthi</span><br>from Chennai</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                            A passionate and driven undergraduate student pursuing
+                        a Bachelor of Technology (B.Tech) in Computer Science and Business Systems.
+                        With a profound interest in the intersection of technology and business,
+                        I am dedicated to leveraging my skills and knowledge to make a meaningful impact
+                        in the world of business analysis.
+                    </p>
+                    <div class="tab-titles">
+                       <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                       <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Visualization</span><br>Tableau, R-programming</li>
+                            <li><span>Web Development</span><br>Website Design & development</li>
+                            <li><span>Programming Languages</span><br>C, Python, Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Illakkanam Private Limited-06/2023</span><br>Web site developement</li>
+                            <li><span>Sparks Foundation-05/2023-</span><br>Data and Business analysis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="education">
+        <div class="container">
+            <div class="row1">
+                <div class="education-col-1">
+                    <h1 class="sub-title">Education</h1><br>
+                    <div class="edu_content">
+                        <ul>
+                            <li><span>2021-Present</span><br>BACHELORS OF TECHNOLOGY<br>Computer Science and Business Systems<br>9.5GPA</li><br>
+                            <li><span>2020-2021</span><br>HSC<br>Sri sankara vidhya kendra MHS School<br>Percentage-91.6%</li><br>
+                            <li><span>2018-2019</span><br>SSLC<br>Sri sankara vidhya kendra MHS School<br>Percentage-86.8%</li><br>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education-col-2">
+        <img src="images/education.png">
+    </div>
+</div>
+<hr color="#b54769">
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificates-list">
+            <div>
+                <h2>Google Certified</h2>
+                <ul>
+                   <li>Fundamentals of digital marketing</li>
+                   <li>Google digital Leader</li>
+            </div>
+            <br>
+            <div>
+                <h2>Shell NXplorers</h2>
+                <p>The Shell Nxplorers Workshop was an exhilarating event
+                   that served as a beacon for budding innovators and aspiring entrepreneurs. 
+                   This unique workshop, organized by Shell, was a platform dedicated to
+                   cultivating creativity, guiding participants on how to select and analyze
+                   project ideas, and providing a stage for idea pitching excellence. 
+                   The event culminated in a remarkable achievement as my idea secured the 
+                   prestigious first prize.</p>
+            </div>
+            <br>
+            <div>
+                <h2>E-Summit Entrepreneurship Program-IITM</h2>
+                <p> The E-Summit at the Indian Institute of Technology Madras (IITM)
+                    was a remarkable three-day extravaganza that celebrated innovation,
+                    entrepreneurship, and the boundless spirit of young visionaries.
+                    This dynamic event served as a melting pot of ideas,
+                    where seasoned entrepreneurs, budding startups, 
+                    and inquisitive minds converged to explore the ever-evolving
+                    landscape of business and technology.</p>
+            </div>
+            <br>
+            <div>
+                <h2>IEEE Paper Presentation</h2>
+                <p>
+                    paper on "IRIS Segmentation using dense U-net"
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr color="#b54769">
+<div id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope" style="color: #ff0046;"></i>vijee2304@gmail.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #ff0046;"></i>+91 9003094976</p>
+                <p><i class="fa-solid fa-location-dot" style="color: #ff0046;"></i>133/44, Dr. Ambethkar Nagar, Tvt, Chennai-19</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vijayakeerthi-karuppasamy-6ba5a8211"><i class="fa-brands fa-linkedin";></i></a>
+                    <a href="https://github.com/vijayakeerthi1608"><i class="fa-brands fa-github";></i></a>
+                </div>
+                </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ vijayakeerthi. Made with <i class="fas fa-heart" style="color: #ff0046;"></i> by vijayakeerthi</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+</body>
+</html>
